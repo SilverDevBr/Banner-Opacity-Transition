@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Heveltica, sans-serif;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.banner-conteiner {
+	position: relative;
+	width: 500px;
+	height: 110px;
+}
+.banner-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #fff ;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: opacity .6s linear;
+}
+.banner-content:nth-child(1) {
+	background: red;
+}
+.banner-content:nth-child(2) {
+	background: yellow;
+}
+.banner-content:nth-child(3) {
+	background: blue;
+}
+.banner-content:nth-child(4) {
+	background: green;
+}
+.banner-content:nth-child(5) {
+	background: purple;
+}
+.banner-content:nth-child(6) {
+	background: aquamarine;
+}
+.banner-content:nth-child(7) {
+	background: brown;
+}
+.banner-content:nth-child(8) {
+	background: gray;
+}
+.banner-content:nth-child(9) {
+	background: aqua;
+}
+.banner-content:nth-child(10) {
+	background: indigo;
+}
+.current-banner {
+	opacity: 1;
+}
